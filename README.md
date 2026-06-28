@@ -8,7 +8,7 @@ agente de ia simples
 # Arquitetura futura
 
 
-
+```text
 Angular
    ↓ HTTP
 FastAPI
@@ -19,9 +19,11 @@ Agent Service
    ├── Redis para memória
    ├── Oracle para dados
    └── APIs externas
+```
 
 Estrutura Python:
 
+```text
 app/
 ├── main.py
 ├── schemas/
@@ -34,3 +36,4 @@ app/
 │   └── ollama_service.py
 └── repositories/
     └── estoque_repository.py
+```
